@@ -80,7 +80,7 @@ function App() {
 
   const gameState = useMemo(
     () => endGameState(correctLetters, wrongLetters, selectedWord),
-    [correctLetters, wrongLetters, selectedWord]
+    [correctLetters, wrongLetters]
   );
 
   const resetGame = () => {
