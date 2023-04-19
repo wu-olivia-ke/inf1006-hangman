@@ -1,0 +1,39 @@
+
+body, #root {
+  background-color: beige;
+  color: #000000;
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  overflow: hidden;
+}
+
+.figure-container {
+  fill: transparent;
+  stroke: #fff;
+  stroke-width: 4px;
+  stroke-linecap: round;
+}
+
+.figure-part {
+  display: none;
+}
+
+.notification-container {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 10px 10px 0 0;
+  padding: 15px 20px;
+  position: absolute;
+  bottom: -50px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.notification-container p {
+  margin: 0;
+}
+
+.notification-container.show {
+  transform: translateY(-50px);
+}
