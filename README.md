@@ -3,7 +3,7 @@
 ## How to Run
 
 * Make sure Node.js and npm are installed
-* Clone the repository
+* Clone the repository & navigate to the project directory
 
 * Run:
     ### `npm install`
